@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: #00d2ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #3a7bd5, #00d2ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #3a7bd5, #00d2ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    width: 30%;
+    min-width: 350px;
+    max-width: 400px;
+    padding: 10px;
+    /* border: 1px solid red; */
+
+}
+
+.todo {
+    padding: 20px 15px 20px 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+input {
+    padding-inline: 10px;
+    width: 70%;
+    height: 40px;
+    border: 1px grey solid;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: 3px solid rgba(138, 212, 238, 0.5);
+    border-color: #068FFF;
+}
+
+#add {
+    color: #ffffff;
+    width: 20%;
+    height: 40px;
+    float: right;
+    border-radius: 5px;
+    border: 1px grey solid;
+    background-color: #068FFF;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: medium;
+    border: none;
+}
+
+#add:active {
+    background-color: #0573ce;
+}
+
+#list {
+    margin-top: 10px;
+    padding: 20px 15px 20px 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+
+li {
+    /* border: 1px solid blue; */
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#list li span {
+    cursor: pointer;
+}
+
+#list button {
+    padding-inline: 13px;
+    padding-block: 10px;
+    background-color: #068FFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+#list button:active {
+    background-color: #0573ce;
+}
+
+.garis {
+    text-decoration: line-through;
+}
+
+/* #list li i {
+    color: #ffffff;
+    background-color: #068FFF;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#list li i:active {
+    background-color: #0573ce;
+} */
